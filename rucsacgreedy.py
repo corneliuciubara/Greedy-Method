@@ -22,13 +22,13 @@ def rucsac(value, weight, capacity):
  
  
 n = int(input('Numarul de obiecte din rucsac: '))
-value = input('Introduceți volumele obiectului(obiectelor) {} în ordine: '
+value = input('Introduceți volumele celor {} obiecte în ordine: '
               .format(n)).split()
 value = [int(v) for v in value]
 weight = input('Introduceți ponderile pozitive ale celor {} obiecte în ordine: '
                .format(n)).split()
 weight = [int(w) for w in weight]
-capacitatea = int(input('Volumul maxim: '))
+capacitatea = int(input('Volumul maxim al rucsacului: '))
  
 valoarea_maxima, fractions = rucsac(value, weight, capacitatea)
 print(':', valoarea_maxima)
