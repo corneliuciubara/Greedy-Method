@@ -40,8 +40,8 @@ def findTwoGroup(n):
             grop2.append(i)
  
 
-    printVector('1 grup:', grop1)
-    printVector('2 grup:',grop2)
+    printVector(grop1)
+    printVector(grop2)
  
 
 n = int(input("Introduceti n="))
