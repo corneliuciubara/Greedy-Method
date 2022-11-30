@@ -1,7 +1,6 @@
 # Imaginează-ți că ești un automat de jocuri video. 
 # Cineva îți oferă 100 de dolari și cumpără un joc video de 60 de dolari. 
-# Nu există nicio bancnotă de 40 de dolari.
-# Cum calculezi câtă schimbare trebuie returnată?
+# Cum calculezi câte bancnote de fiecare trebuie returnate?
 
 bancnote = [1, 2, 5, 10, 20, 50, 100]
 
