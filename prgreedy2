@@ -1,1 +1,10 @@
+def printMaxActivities(s, f):
+    n = len(f)
+    
+    i = 0
+    print(i)
+    for j in range(n):
+        if s[j] >= f[i]:
+            i = j
 
+print(printMaxActivities(s, f))
